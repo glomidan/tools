@@ -1,3 +1,5 @@
+"" Write by glomi
+
 "" Use mouse
 set mouse=a
 
