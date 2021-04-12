@@ -1,0 +1,49 @@
+general {
+	output_format="i3bar"
+	colors = true
+	color_good = "#50FA7B"
+	color_degraded = "#F1FA8C"
+	color_bad = "#FF5555"
+		interval = 10
+}
+
+order += "wireless _first_"
+order += "battery all"
+order += "disk /"
+order += "cpu_usage"
+order += "memory"
+order += "volume master"
+order += "tztime local"
+
+wireless _first_ {
+	format_up = "(%quality at %essid: %bitrate) %ip"
+    format_down = "WiFi: down"
+}
+
+battery all {
+	format = "%status %percentage"
+	status_chr = "⚡"
+	status_bat = "🔋"
+	status_unk = "❌"
+	status_full = "✅"
+	low_threshold = 10
+}
+
+disk "/" {
+	format = "%free"
+}
+
+memory {
+	format = "%used"
+	threshold_degraded = "1G"
+}
+
+volume master {
+    format = "🔊 %volume"
+    format_muted = "🔇 muted"
+    device = "pulse:0"
+}
+
+tztime local {
+	format = "%Y-%m-%d %H:%M:%S"
+}
