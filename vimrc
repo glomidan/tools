@@ -15,7 +15,6 @@ set smartindent
 
 "" SYNTAX HIGHLIGHTING
 syntax on
-colorscheme Atelier_CaveDark
 set colorcolumn=80
 
 
@@ -50,5 +49,5 @@ inoremap ' ''<left>
 inoremap ( ()<left>
 inoremap [ []<left>
 inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>0
-inoremap {;<CR> {<CR>};<ESC>0
+inoremap {<CR> {<CR>}<left>
+inoremap {;<CR> {<CR>};<left>
