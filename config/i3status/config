@@ -16,7 +16,7 @@ order += "volume master"
 order += "tztime local"
 
 wireless _first_ {
-	format_up = "(%quality at %essid: %bitrate) %ip"
+	format_up = "(%quality at %essid) %ip"
     format_down = "WiFi: down"
 }
 
@@ -35,7 +35,7 @@ disk "/" {
 
 memory {
 	format = "%used"
-	threshold_degraded = "1G"
+	threshold_degraded = "2G"
 }
 
 volume master {
