@@ -44,3 +44,5 @@ fi
 echo "Restart web server..."
 sudo /etc/init.d/apach2.service restart 2> /dev/null
 systemctl status apache2.service
+
+echo "Installation successfull, now try to connect on web interface"
