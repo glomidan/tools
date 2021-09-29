@@ -4,11 +4,11 @@ echo "Update mirror list..."
 sudo apt update -y 2> /dev/null
 
 echo "Installing web server..."
-sudo apt install apache2 libapach2-mod-php php php-cli php-curl php-gd php-intl php-memcache php-xml php-zip php-mbstring php-json bzip2 wget -y
+sudo apt install apache2 libapach2-mod-php php php-cgi php-mysql php-cli php-curl php-gd php-intl php-memcache php-xml php-zip php-mbstring php-json bzip2 wget -y
 
 echo "Downloading NextCloud"
 cd /tmp
-wget https://download.nextcloud.com/server/releases/nextcloud-22.1.1.zip 2> /dev/null
+wget https://download.nextcloud.com/server/releases/nextcloud-22.1.1.zip
 echo "Unpack files..."
 sudo unzip nextcloud-22.1.1.zip -d /var/www/html/
 cd /var/www/html
@@ -42,7 +42,7 @@ then
 fi
 
 echo "Restart web server..."
-sudo /etc/init.d/apach2.service restart 2> /dev/null
+sudo /etc/init.d/apach2.service restart
 systemctl status apache2.service
 
 echo "Installation successfull, now try to connect on web interface"
