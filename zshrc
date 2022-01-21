@@ -110,8 +110,8 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-alias HDMI-on="xrandr --output HDMI-1 --right-of eDP-1 --auto"
-alias HDMI-off="xrandr --output HDMI-1 --off"
+alias HDMI-on="xrandr --output HDMI-2 --right-of eDP-1 --auto"
+alias HDMI-off="xrandr --output HDMI-2 --off"
 alias update="sudo pacman -Syu && yay -Su"
 mkcd () { mkdir -p "$@" && cd "$@"; }
 alias bright-full="xrandr --output eDP-1 --brightness 1"
