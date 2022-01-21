@@ -1,6 +1,9 @@
-#!/bin/bash
-
+#
+# This script install and configure server for running Nextcloud on a Debian-based distro
 # Written by glomi - Danael BRAUX
+#
+
+#!/bin/bash
 
 echo -e "This script is written for \e[31mapt\e[0m package manager"
 
