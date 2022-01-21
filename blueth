@@ -1,3 +1,8 @@
+#
+# This script allow to connect disconnect new bluetooth devices
+# Written by glomi (Danael BRAUX)
+#
+
 #!/bin/bash
 
 echo "Choose option : connect/disconnect"
