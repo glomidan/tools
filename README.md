@@ -19,7 +19,9 @@ Copy the "blueth" binary in local bin folder </br>
 
 ### How to use ###
 Just run the binary and follow the given instructions... :) </br>
-`~ ❯ blueth
+```
+~ ❯ blueth
 Choose option : connect[c]/disconnect[d]
 connect
-...`
+...
+```
