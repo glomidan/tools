@@ -11,4 +11,5 @@ Just run the binary and follow the given instructions... :) </br>
 ```~ ❯ blueth
 Choose option : connect[c]/disconnect[d]
 connect
-...```
+...
+```
