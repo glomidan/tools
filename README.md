@@ -10,9 +10,9 @@ Arch-based distro </br>
 `~ ❯ pacman -Sy bluez-utils`
 
 Debian-based distro </br>
-`apt update`
-`apt install -y bluez`
-`apt install -y bluetooth`
+`apt update` </br>
+`apt install -y bluez` </br>
+`apt install -y bluetooth` </br>
 
 Copy the "blueth" binary in local bin folder </br>
 `cp blueth /usr/local/bin`
