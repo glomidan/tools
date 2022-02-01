@@ -7,20 +7,20 @@
 ### Setup ###
 This script works with `bluez` package. Please install it before lanch it. </br>
 
-Arch-based distro </br>
+- Arch-based distro </br>
 ```
 ~ ❯ pacman -Sy bluez
 ~ ❯ pacman -Sy bluez-utils
 ```
 
-Debian-based distro </br>
+- Debian-based distro </br>
 ```
 apt update
 apt install -y bluez
 apt install -y bluetooth
 ```
 
-Copy the "blueth" binary in local bin folder </br>
+- Copy the "blueth" binary in local bin folder </br>
 ```
 cp blueth /usr/local/bin
 ```
@@ -36,4 +36,15 @@ connect
 ## ZSHrc ##
 
 ### Setup OhMyZsh / Powerlevel10k theme ###
- - zsh insatlled require
+- Install zsh
+
+- Arch-based distro </br>
+```
+~ ❯ pacman -Sy zsh
+```
+
+- Debian-based distro </br>
+```
+apt update
+apt install -y zsh
+```
