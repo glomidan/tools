@@ -1,5 +1,7 @@
 # My tool kit #
 
+*This is my personnal tool box. I add may own script that I have developped when I give up Windows for Arch-based system !*
+
 ## Bluetooth script ##
 
 ### Setup ###
