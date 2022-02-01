@@ -38,7 +38,12 @@ connect
 
 ## VIMrc ##
 
-### Setup VIM plugin ###
+### Setup VIMrc ###
+copy vimrc in home directory
+```
+~/tools main ❯ cp vimrc ~/.vimrc
+```
+**Install Vandle**
 - Install and build Vandle plugin
 - Adapt VIMrc with your Vandle's install path
 - Launch VIM
