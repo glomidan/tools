@@ -1,10 +1,10 @@
-# My tool kit
+# My tool kit #
 
-## Blueth script
+## Bluetooth script ##
 
-### Setup
-copy blueth binary in local binary folder </br>
+### Setup ###
+Copy the "blueth" binary in local bin folder </br>
 ```cp blueth /usr/local/bin```
 
-### How to use
-Just run the binary and follow the given instruction... :)
+### How to use ###
+Just run the binary and follow the given instructions... :)
