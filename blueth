@@ -5,9 +5,9 @@
 
 #!/bin/bash
 
-echo "Choose option : connect/disconnect"
+echo "Choose option : connect[c]/disconnect[d]"
 read opt
-if [ $opt = "connect" ]
+if [ $opt = "connect" -o $opt = "c" ]
 then
     sudo bluetooth on
     sleep 0.5
@@ -19,9 +19,9 @@ then
     sleep 5
     bluetoothctl paired-devices
     sleep 0.5
-    echo "Enter the @mac device (new for scan):"
+    echo "Enter the @mac device (new[n] for scan):"
     read device
-    if [ $device = "new" ]
+    if [ $device = "new" -o $device = "n" ]
     then
         echo "Please wait, scanning..."
         bluetoothctl scan on&
@@ -35,7 +35,7 @@ then
     fi
     sleep 0.5
     bluetoothctl connect $device
-elif [ $opt = "disconnect" ]
+elif [ $opt = "disconnect" -o $opt = "d" ]
 then
     bluetoothctl disconnect
     sleep 0.5
