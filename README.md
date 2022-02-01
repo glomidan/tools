@@ -3,7 +3,7 @@
 ## Blueth script
 
 ### Setup
-copy blueth binary in local binary folder
+copy blueth binary in local binary folder </br>
 ```cp blueth /usr/local/bin```
 
 ### How to use
