@@ -9,8 +9,8 @@ This script works with `bluez` package. Please install it before lanch it. </br>
 
 - Arch-based distro </br>
 ```
-~ ❯ pacman -Sy bluez
-~ ❯ pacman -Sy bluez-utils
+pacman -Sy bluez
+pacman -Sy bluez-utils
 ```
 
 - Debian-based distro </br>
@@ -41,7 +41,7 @@ connect
 ### Setup VIMrc ###
 copy vimrc in home directory
 ```
-~/tools main ❯ cp vimrc ~/.vimrc
+cp vimrc ~/.vimrc
 ```
 **Install Vandle**
 - Install and build Vandle plugin
