@@ -3,13 +3,13 @@
 ## Bluetooth script ##
 
 ### Setup ###
+This script works with `bluez`  package. Please install it before lanch it. </br>
 
-Arch-based distro
----This script works with `bluez`  package. Please install it before lanch it. </br>
+Arch-based distro </br>
 `~ ❯ pacman -Sy bluez`
 `~ ❯ pacman -Sy bluez-utils`
 
-Debian-based distro
+Debian-based distro </br>
 `apt update`
 `apt install -y bluez`
 `apt install -y bluetooth`
