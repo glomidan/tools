@@ -1,6 +1,6 @@
 # My tool kit #
 
-*It’s my personal toolbox. I add my own scripts that I have developed since I gave up Windows for Arch-based systems! &#9829; I add some things for my server too*
+*It’s my personal toolbox. I add my own scripts that I have developed since I gave up Windows for Arch-based systems! &#9829;*
 
 ## Bluetooth script ##
 
