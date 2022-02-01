@@ -1,11 +1,11 @@
 # My tool kit #
 
-*It’s my personal toolbox. I add my own scripts that I have developed since I gave up Windows for Arch-based systems! &#9829;*
+*It’s my personal toolbox. I add my own scripts that I have developed since I gave up Windows for Arch-based systems! &#9829; I add some things for my server too*
 
 ## Bluetooth script ##
 
 ### Setup ###
-This script works with `bluez`  package. Please install it before lanch it. </br>
+This script works with `bluez` package. Please install it before lanch it. </br>
 
 Arch-based distro </br>
 ```
