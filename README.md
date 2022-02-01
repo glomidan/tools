@@ -20,7 +20,7 @@ apt install -y bluez
 apt install -y bluetooth
 ```
 
-- Copy the "blueth" binary in local bin folder </br>
+- Copy the `blueth` binary in local bin folder </br>
 ```
 cp blueth /usr/local/bin
 ```
