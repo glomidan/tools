@@ -33,6 +33,9 @@ Choose option : connect[c]/disconnect[d]
 connect
 ...
 ```
+
+---
+
 ## ZSHrc ##
 
 ### Setup OhMyZsh / Powerlevel10k theme ###
