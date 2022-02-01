@@ -36,20 +36,16 @@ connect
 
 ---
 
-## ZSHrc ##
+## VIMrc ##
 
-### Setup OhMyZsh / Powerlevel10k theme ###
-- Install zsh
-
-- Arch-based distro </br>
-```
-~ ❯ pacman -Sy zsh
-```
-
-- Debian-based distro </br>
-```
-apt update
-apt install -y zsh
-```
+### Setup VIM plugin ###
+- Install and build Vandle plugin
+- Adapt VIMrc with your Vandle's install path
+- Launch VIM
+- Install VIM plugin:
+```:plugin install```
+- for update:
+pull the Vandle repo and in VIM:
+```:plugin update```
 
 ---
