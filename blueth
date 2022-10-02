@@ -17,7 +17,7 @@ then
     sleep 0.5
     echo "Please wait..."
     sleep 5
-    bluetoothctl paired-devices
+    bluetoothctl devices
     sleep 0.5
     echo "Enter the @mac device (new[n] for scan):"
     read device
