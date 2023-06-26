@@ -10,8 +10,6 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -114,9 +112,10 @@ source $ZSH/oh-my-zsh.sh
 
 alias HDMI-on="xrandr --output HDMI-2 --right-of eDP-1 --auto"
 alias HDMI-off="xrandr --output HDMI-2 --off"
+alias HDMI-sndon="pactl set-card-profile alsa_card.pci-0000_00_1f.3 output:hdmi-stereo-extra1"
 alias update="sudo pacman -Syu && yay -Su"
 mkcd () { mkdir -p "$@" && cd "$@"; }
 mktmp () { mkdir -p "/tmp/$@" && cd "/tmp/$@"; }
 alias bright-full="xrandr --output eDP-1 --brightness 1"
-alias bright-mid="xrandr --output eDP-1 --brightness 0.6"
+alias bright-mid="xrandr --output eDP-1 --brightness 0.7"
 alias bright-low="xrandr --output eDP-1 --brightness 0.3"
