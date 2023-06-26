@@ -23,3 +23,4 @@ else
     echo "Starting TCP scan"
     sleep 0.5
     nmap -sS -A $ip
+fi
