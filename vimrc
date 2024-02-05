@@ -3,19 +3,22 @@
 "" Use mouse
 set mouse=a
 
-"" LINE
+"" LINE NUMBER
 set number "" Display the line number
+highlight LineNr ctermfg=darkgrey "" Set color of line number
+set cursorline "" Enable highlithing the line number
+highlight clear cursorline "" Hide line number decoration
+highlight clear cursorlineNR "" Hide line number decoration
 
 "" INDENT SETTINGS
 set tabstop=4
-set shiftwidth=4
 set expandtab "" Use space
 set autoindent "" Copy the indentation from previous line
 set smartindent
 
 "" SYNTAX HIGHLIGHTING
 syntax on
-set colorcolumn=80
+""set colorcolumn=80
 
 
 "" VUNDLE
@@ -51,3 +54,5 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<left>
 inoremap {;<CR> {<CR>};<left>
+
+"" imap cf python

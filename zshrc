@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Aliases
 alias HDMI-on="xrandr --output HDMI-2 --right-of eDP-1 --auto"
 alias HDMI-off="xrandr --output HDMI-2 --off"
 alias HDMI-sndon="pactl set-card-profile alsa_card.pci-0000_00_1f.3 output:hdmi-stereo-extra1"
@@ -119,3 +120,5 @@ mktmp () { mkdir -p "/tmp/$@" && cd "/tmp/$@"; }
 alias bright-full="xrandr --output eDP-1 --brightness 1"
 alias bright-mid="xrandr --output eDP-1 --brightness 0.7"
 alias bright-low="xrandr --output eDP-1 --brightness 0.3"
+
+export PATH=/home/glomi/.gem/ruby/3.0.0/bin:$PATH
