@@ -120,5 +120,3 @@ mktmp () { mkdir -p "/tmp/$@" && cd "/tmp/$@"; }
 alias bright-full="xrandr --output eDP-1 --brightness 1"
 alias bright-mid="xrandr --output eDP-1 --brightness 0.7"
 alias bright-low="xrandr --output eDP-1 --brightness 0.3"
-
-export PATH=/home/glomi/.gem/ruby/3.0.0/bin:$PATH
