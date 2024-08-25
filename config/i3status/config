@@ -8,16 +8,23 @@ general {
 }
 
 order += "wireless _first_"
+order += "ethernet _first_"
 order += "battery all"
 order += "disk /"
 order += "cpu_usage"
 order += "memory"
 order += "volume master"
+order += "volume bt"
 order += "tztime local"
 
 wireless _first_ {
-	format_up = "(%quality at %essid) %ip"
-    format_down = "WiFi: down"
+	format_up = "(📶%quality at %essid) %ip"
+    format_down = "📶 down"
+}
+
+ethernet _first_ {
+    format_up = "%ip"
+    format_down = ""
 }
 
 battery all {
@@ -35,15 +42,21 @@ disk "/" {
 
 memory {
 	format = "%used"
-	threshold_degraded = "2G"
+	threshold_degraded = "1G"
 }
 
 volume master {
-    format = "🔊 %volume"
+    format = "sp: 🔊 %volume"
     format_muted = "🔇 muted"
     device = "pulse:0"
 }
 
+volume bt {
+    format = "bt: 🔊 %volume"
+    format_muted = "🔇 muted"
+    device = "pulse:1"
+}
+
 tztime local {
-	format = "%Y-%m-%d %H:%M:%S"
+	format = "%d-%m-%Y %H:%M:%S"
 }
